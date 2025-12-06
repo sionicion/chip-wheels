@@ -292,7 +292,7 @@ jobs:
                                           enable_rtti=true \
                                           chip_config_memory_debug_checks=false \
                                           chip_config_memory_debug_dmalloc=false \
-                                          chip_mdns=\"minimal\" \
+                                          chip_mdns=\"platform\" \
                                           chip_minmdns_default_policy=\"default\" \
                                           chip_python_version=\"${{ needs.build_prepare.outputs.version }}\"  \
                                           chip_python_package_prefix=\"home-assistant-matter\" \
